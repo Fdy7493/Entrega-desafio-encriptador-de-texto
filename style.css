@@ -1,0 +1,133 @@
+*{
+    background: #F3F5FC;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+.logo:hover{
+    margin-bottom:0.2%;
+    width: 10.5%;
+    padding: 0.1%;
+    background-color: #babec4;
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area {
+    border: none;
+    color: #0a3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0a3871; }
+.text-area :focus {
+    outline: none;
+}
+.mensaje {
+    background: #F3F5FC;
+    background-image: url("img/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 93px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 90%;
+    left: 12%;
+    top:90%;
+}
+.btn-encriptar{
+    background: #d8dfe8;
+    border: 3px solid #0a3871;
+    border-radius: 20px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 260px;
+    
+}
+.btn-desencriptar{
+    background: #0a3871;
+    border: 3px solid #0a3871;
+    border-radius: 20px;
+    color: #d8dfe8;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 30px;
+    width: 260px;
+
+}
+.btn-desencriptar:hover,
+.btn-encriptar:hover{
+    margin: 0.5%;
+    width: 20.5%;
+    padding: 0.5%;
+    background-color:#babec4;
+}
+
+.copiar{
+    border: 3px solid #0a3871;
+    border-radius: 20px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 50px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 260px;
+}
+.copiar:hover{
+    margin-bottom:0.2%;
+    width: 20.5%;
+    padding: 0.1%;
+    background-color: #babec4;
+}
+
+.informacion{
+    color: #495057;
+    font-size: 18px;
+}
+.footer{
+    margin-top: 5%;
+    padding: 5px;
+    border-top: 2px solid var(--font);
+    color: var(--gray);
+    text-align: center;
+    height: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
